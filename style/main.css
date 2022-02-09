@@ -1,0 +1,506 @@
+
+body
+{
+   font-family: "Poppins", sans-serif;
+   background-color:#085A52;
+}
+
+footer
+{
+   margin-top: 100px;
+}
+
+/* Navbar */
+.group-buttons-with-Trofey
+{
+   display: flex;
+}
+
+header
+{
+   width: 100%;
+}
+
+header a
+{
+   text-decoration: none;
+}
+
+.logo p
+{
+   padding: 0px 20px;
+}
+
+.logo
+{
+   padding: 10px;
+}
+
+form
+{
+   display: inline-flex; list-style-type: none;
+}
+
+.app-button
+{
+   text-transform: uppercase;
+   margin-left: 10px;
+}
+
+p
+{
+   color: white;
+   margin-bottom: 0rem !important;
+}
+
+.group-buttons-with-App
+{
+   display: flex;
+   padding: 10px 30px;
+   margin: 0px 10px;
+}
+
+.bonuses-button
+{
+   border: 1px solid #F2994A;
+   padding: 10px 30px;
+   text-transform: uppercase;
+   margin-left: 10px;
+}
+
+.near-nav
+{
+   margin-top: 10px;
+}
+
+.group-sign-in
+{
+   margin: 0px 10px;
+   display: flex;
+}
+
+.group-log-in
+{
+   
+   display: flex;
+}
+
+.sign-in
+{
+   border: 1px solid #F2994A;
+   padding: 8px 30px;
+   text-transform: uppercase;
+}
+
+.sign-in p
+{
+   color: #F2994A
+}
+
+.log-in
+{
+   border: 1px solid white;
+   background-color: #2E9344;
+   padding: 8px 30px;
+}
+
+.just-content
+{
+   display: flex;
+   justify-content: space-around;
+}
+
+.bonuses-button p
+{
+   color: orange;
+   line-height: 19px;
+   text-decoration: none;
+}
+
+.navbar
+{
+   background-color: #085A52;
+}
+
+
+
+/* adaptive */
+@media (max-width: 461px) {
+
+   .logo p
+   {
+      display: none;
+   }
+
+   .welcome-bonus-and-button h2
+   {
+      font-size: 30px;
+   }
+}
+
+@media (max-width: 992px) {
+
+   /* navbar */
+   .navbar-collapse
+   {
+      
+      left: 0px;
+      width: 100%;
+      background-color: #085A52;
+      top: 105px;
+      z-index: 1;
+      text-align: center;
+      align-items: center;
+      flex-grow: 1;
+      flex-basis: 100%;
+   }
+
+   .svg-nav-item
+   {
+      display: none;
+   }
+
+   .nav-item
+   {
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .logo
+   {
+      padding-bottom: 15px
+   }
+   
+}
+
+/* section-1 */
+
+.section-1 img
+{
+   height: 410px;
+   width: 100%;
+   object-fit: cover;   
+}
+
+h1
+{
+   font-size: 52px;
+   font-family: "Poppins", sans-serif;
+   color: white;
+}
+
+.side-with-text
+{
+   width: 50%;
+}
+
+.side-with-text
+{
+   position: absolute;
+   top: 170px;
+}
+
+.man
+{
+   position: absolute;
+   top: 84px;
+   right: 80px;
+}
+
+/* adaptive section-1 */
+
+@media (max-width: 890px) {
+   .man{ display: none;}
+   .side-with-text {width: 80%;}
+   .side-with-text h1 {font-size: 45px;}
+}
+
+/* section-button */
+
+.section-buttons
+{
+   background-color: #085A52;
+}
+
+.text-button p
+{
+   padding: 10px 15px;
+   text-transform: uppercase;
+}
+
+/* section-3 */
+
+.group-buttons-section-buttons
+{
+   display: flex;
+   border: 1px solid white;
+   margin: 10px 5px;
+}
+
+
+.group-buttons-section-buttons img
+{
+   margin: 0px 10px;
+}
+
+.section-3
+{
+   padding: 40px 0px;
+   background-color: #085A52;
+}
+
+h2
+{
+   color: white;
+   font-size: 48px;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.group-welcome-buttons
+{
+   
+   display: flex;
+   justify-content: flex-end;
+}
+
+.group-welcome-buttons h2
+{
+   margin-bottom: 0;
+}
+
+
+.group-get-a-bonus-now
+{
+   display: flex;
+   padding:20px;
+}
+
+.get-a-bonus-now
+{
+   padding: 5px;
+   border: 1px solid #F2994A;
+}
+
+.get-a-bonus-now p
+{
+   color:#F2994A;
+   font-weight: 700;
+}
+
+.welcome-bonus-and-button
+{ 
+   text-align: end;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+}
+
+.liss ul li:before
+{
+font-size: 20px;
+line-height: 2.7;
+color: orange ;
+margin: 0px 10px;
+  content: 'o';
+}
+
+.liss ul
+{
+   padding: 0;
+}
+
+.Get-100 h1
+{
+   color:#F2994A;
+}
+
+.big-font-with-trofey
+{
+   text-align: center;
+   text-transform: uppercase;
+   margin-top: 10px;
+   margin-bottom: 80px;
+   padding: 45px 0px;
+   border: 1px solid white;
+   background-color: #145F50;
+}
+
+.text-buttons
+{
+   margin: 10px 0px;
+   border: 1px solid white;
+   display: flex;
+}
+
+.text-buttons p
+{
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.text-button-item a
+{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+/* section-4 */
+
+ .benefits
+ {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0px;
+ }
+
+ .sector-with-picture
+ {
+    border: 1px solid white;
+ }
+
+ /* section-5 */
+
+ .bet-review h1
+ {
+    text-transform: uppercase;  
+ }
+
+ li
+ {
+    font-weight: 500;
+ }
+
+ .bet-review h1
+ {text-align: center; margin: 30px 0px; }
+
+ ul, ol
+ {
+    color: white;
+ }
+
+ ul {
+  list-style: none;
+}
+
+.bet-review ul li:before {
+   color: green;
+  content: '-';
+  margin: 0px 10px;
+  font-weight: bold;
+}
+
+ol li::marker
+{
+   margin: 0px 10px;
+  color: #F2994A;
+}
+
+.group-sign-in-section-5
+{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.but
+{
+   margin: 20px 0px;
+   display: flex;
+   justify-content: center;
+}
+
+.but p, .but a
+{
+   padding: 5px 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #F2994A
+}
+
+.accordion-item
+{
+   background-color: #085A52;
+   border: 1px solid white;
+}
+
+.accordion-item
+{
+   color: white;
+}
+
+.accordion-button
+{
+   background-color: #085A52;
+}
+
+.accordion-button
+{
+   color: white;
+}
+
+footer
+{
+   background-color: #06443E;
+   padding: 50px;
+}
+
+.little-padding
+{
+   padding: 50px;
+}
+
+.group-sign-in a, .group-get-a-bonus-now a, .section-buttons a
+{
+   text-decoration: none;
+}
+
+@media (max-width:992px) {
+   .pole img
+   {
+      width: 100%;
+   }
+
+   .little-padding
+   {
+      padding: 10px;
+   }
+
+   .group-welcome-buttons
+   {
+      justify-content: center;
+   }
+   .group-get-a-bonus-now
+   {
+      justify-content: center;
+   }
+
+   .welcome-bonus-and-button{
+      padding: 10px 0px;
+      font-size: 10px;
+   }
+}
+
+
+@media (max-width: 800px) {
+   
+   .group-buttons-section-buttons a
+   {
+      text-align: center;
+   }
+}
+
+@media (max-width: 340px) {
+      .side-with-text
+   {
+      top:110px;
+   }
+   
+}
+
+footer img
+{
+   margin-right: 20px;
+   margin-bottom: 20px;
+}
