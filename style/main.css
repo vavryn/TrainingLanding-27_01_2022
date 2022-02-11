@@ -90,12 +90,12 @@ p
    border: 1px solid #F2994A;
    padding: 8px 30px;
    text-transform: uppercase;
+   background-color: #145F50
 }
 
-.sign-in p
-{
-   color: #F2994A
-}
+.sign-in:hover {color: white; border: 1px solid white; transition: .3s}
+
+.sign-in { color: #F2994A }
 
 .log-in
 {
@@ -110,11 +110,19 @@ p
    justify-content: space-around;
 }
 
-.bonuses-button p
+.bonuses-button
 {
-   color: orange;
+   color: #F2994A;
    line-height: 19px;
    text-decoration: none;
+}
+
+.bonuses-button:hover {color: white; border: 1px solid white; transition: .3s;}
+
+.second-button
+{
+   display: flex;
+   justify-content: center;
 }
 
 .navbar
@@ -222,10 +230,12 @@ h1
    background-color: #085A52;
 }
 
-.text-button p
+.text-button
 {
    padding: 10px 15px;
    text-transform: uppercase;
+   width: 100%;
+   text-align: center;
 }
 
 /* section-3 */
@@ -237,6 +247,9 @@ h1
    margin: 10px 5px;
 }
 
+.group-buttons-section-buttons:hover, .group-buttons-section-buttons p:hover {border:1px solid #2E9344; color: #2E9344;}
+
+.group-buttons-section-buttons p:hover {border: none;}
 
 .group-buttons-section-buttons img
 {
@@ -269,6 +282,65 @@ h2
    margin-bottom: 0;
 }
 
+.welcome-bonus-and-button-second
+{
+   display: flex;
+   justify-content: center;
+   padding-top: 35px;
+}
+
+.zup
+{
+   padding: 35px;
+}
+
+.border
+{
+padding: 10px;
+border: 1px solid white;
+}
+
+.border:hover {scale: 1.1; transition: .3s;}
+
+.img-card
+{
+   display: flex;
+   justify-content: center;
+   padding: 20px 0px;
+}
+
+.img-card img
+{
+   width: 100%;
+   object-fit: scale-down;
+
+}
+
+.title-card
+{
+   text-align: center;
+   color: #F2994A;
+   text-transform: uppercase;
+   padding: 20px 0px;
+}
+
+.second-button
+{
+   padding: 20px 0px;
+}
+
+.desc-card
+{
+   text-align: center;
+   padding: 20px 5px;
+}
+
+
+
+.description-second
+{
+   padding: 35px;
+}
 
 .group-get-a-bonus-now
 {
@@ -278,15 +350,10 @@ h2
 
 .get-a-bonus-now
 {
-   padding: 5px;
-   border: 1px solid #F2994A;
+   padding: 8px 20px; color:#F2994A; border: 1px solid #F2994A;font-weight: 700;
 }
 
-.get-a-bonus-now p
-{
-   color:#F2994A;
-   font-weight: 700;
-}
+.get-a-bonus-now:hover {color: white; border: 1px solid white; transition: .3s;}
 
 .welcome-bonus-and-button
 { 
@@ -345,6 +412,8 @@ margin: 0px 10px;
    text-decoration: none;
    text-transform: uppercase;
 }
+
+.text-button-item a:hover { color: #F2994A; transition: .3s;}
 
 /* section-4 */
 
@@ -423,12 +492,15 @@ ol li::marker
 {
    background-color: #085A52;
    border: 1px solid white;
+   margin: 40px 0px;
 }
 
 .accordion-item
 {
    color: white;
 }
+
+.accordion-item:not(:first-of-type) {border: 1px solid white;}
 
 .accordion-button
 {
@@ -503,4 +575,20 @@ footer img
 {
    margin-right: 20px;
    margin-bottom: 20px;
+}
+
+.accordion-button:not(.collapsed)
+{
+   color: white;
+   background-color: transparent;
+}
+
+
+
+@media (max-width: 1200px) {
+   .logo p
+   {
+      display: none;
+   }
+   
 }
